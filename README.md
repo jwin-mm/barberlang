@@ -9,6 +9,10 @@ Barberlang is a mobile-first web app. Users adjust sliders and toggles (top leng
 > Status: early setup. This README covers just enough to get started on Issues #1–#3. It will grow as the project does.
 
 ---
+## Contributers 
+Kyaw Zin Thu 
+
+--- 
 
 ## Tech stack
 
