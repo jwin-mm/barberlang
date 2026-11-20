@@ -10,7 +10,7 @@ Barberlang is a mobile-first web app. Users adjust sliders and toggles (top leng
 
 ---
 
-## Contributers
+## Contributors
 
 Kyaw Zin Thu
 
@@ -34,7 +34,7 @@ Kyaw Zin Thu
 
 ## Prerequisites
 
-- [Node.js](https://nodejs.org) **20 or newer** — check with `node -v`
+- [Node.js](https://nodejs.org) **20.19 or newer** — check with `node -v`
 - [Git](https://git-scm.com) and a GitHub account with access to this repo
 - [VS Code](https://code.visualstudio.com) (recommended) with the ESLint and Prettier extensions
 - A phone on hand — this app is mobile-first, so test on a real device
@@ -43,10 +43,8 @@ Kyaw Zin Thu
 
 ## Getting started
 
-> These commands become valid once Issue #1 is done.
-
 ```bash
-git clone <repo-url>
+git clone https://github.com/jwin-mm/barberlang.git
 cd barberlang
 npm install
 npm run dev        # start local dev server
@@ -56,9 +54,13 @@ npm run dev        # start local dev server
 | ----------------------- | ----------------------------------------------------- |
 | `npm run dev`           | Start dev server at http://localhost:5173             |
 | `npm run dev -- --host` | Same, but reachable from your phone on the same Wi-Fi |
-| `npm test`              | Run unit tests                                        |
-| `npm run lint`          | Check code style                                      |
-| `npm run build`         | Production build                                      |
+| `npm test`              | Run unit tests once (Vitest)                          |
+| `npm run test:watch`    | Re-run tests on every save                            |
+| `npm run lint`          | Find likely bugs (ESLint)                             |
+| `npm run format`        | Auto-format all files (Prettier)                      |
+| `npm run format:check`  | Check formatting without changing files (used in CI)  |
+| `npm run build`         | Type-check and build for production                   |
+| `npm run preview`       | Serve the production build locally                    |
 
 ---
 
